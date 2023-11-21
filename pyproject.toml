@@ -12,5 +12,7 @@ classifiers = [
 ]
 dynamic = ["version"]
 
+dependencies=["pyarrow~=14.0.0"]
+
 [tool.maturin]
 features = ["pyo3/extension-module"]
